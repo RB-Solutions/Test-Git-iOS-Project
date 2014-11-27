@@ -21,6 +21,7 @@
 		66C74FB61A27CC31007804C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C74F981A27CC31007804C6 /* UIKit.framework */; };
 		66C74FBE1A27CC31007804C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66C74FBC1A27CC31007804C6 /* InfoPlist.strings */; };
 		66C74FC01A27CC31007804C6 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C74FBF1A27CC31007804C6 /* Git_TestTests.m */; };
+		66C74FCB1A27D99C007804C6 /* RBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C74FCA1A27D99C007804C6 /* RBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		66C74FBB1A27CC31007804C6 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		66C74FBD1A27CC31007804C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66C74FBF1A27CC31007804C6 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		66C74FC91A27D99C007804C6 /* RBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBTest.h; path = ../RBTest.h; sourceTree = "<group>"; };
+		66C74FCA1A27D99C007804C6 /* RBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBTest.m; path = ../RBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		66C74F9A1A27CC31007804C6 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				66C74FC91A27D99C007804C6 /* RBTest.h */,
+				66C74FCA1A27D99C007804C6 /* RBTest.m */,
 				66C74FA31A27CC31007804C6 /* RBAppDelegate.h */,
 				66C74FA41A27CC31007804C6 /* RBAppDelegate.m */,
 				66C74FA61A27CC31007804C6 /* Main.storyboard */,
@@ -253,6 +258,7 @@
 				66C74FA51A27CC31007804C6 /* RBAppDelegate.m in Sources */,
 				66C74FA11A27CC31007804C6 /* main.m in Sources */,
 				66C74FAB1A27CC31007804C6 /* RBViewController.m in Sources */,
+				66C74FCB1A27D99C007804C6 /* RBTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
